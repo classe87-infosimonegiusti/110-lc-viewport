@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+.player {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/video.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.control {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0,0,0,0.5);
+    border-top: solid 5px red;
+}
+
+.play i {
+    font-size: 50px;
+    color: white;
+    margin: 25px 0 0 25px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.player {
+    width: 70%;
+}
+
+.suggestion {
+    margin-bottom: 30px;
+}
+
+.suggestions {
+    width: 30%;
+    padding: 10px;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.img-suggestion {
+    width: 100%;
+}
+
